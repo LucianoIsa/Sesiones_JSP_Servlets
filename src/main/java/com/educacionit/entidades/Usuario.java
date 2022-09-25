@@ -31,7 +31,7 @@ public class Usuario {
 	//toString, para mostrar los objetos cuando se invocan los objetos
 	@Override
 	public String toString() {
-		return "Usuario [id=" + id + ", correo=" + correo + ", clave=" + clave + "]";
+		return  "[id=" + id + ", correo=" + correo + "]";
 	}
 
 	//los Getters y Setters siempre se hacen por conveccion.Porque si trabajo con algún 
